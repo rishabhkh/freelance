@@ -1,0 +1,55 @@
+@import "reset.css";
+
+body{
+	background: #2c2c2c;
+}
+
+#menu_button{	
+	display: inline-block;
+	width: 60px;	
+	
+	margin: 0px;
+	padding: 5px;
+	border-color: black;
+	border-style: solid;
+  border-width: 2px 0px 2px 2px;
+
+  box-shadow: 0px 0px 20px black;
+  
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#widget_wrapper{
+	display: inline-block;	
+	position: fixed;	
+	top: 48%;
+	right: 0%;  			
+}
+
+
+#drop_down_wrapper{
+	display: inline-block;
+  white-space: nowrap;
+  box-shadow: 0px 0px 20px black;
+}
+
+#drop_down_list{	
+	transition:width .5s;
+	transition-timing-function: ease-in-out;	
+	width: 0px;
+	border:none;	
+  -moz-appearance: none;    
+  -webkit-appearance:none;
+  background-color: blue;
+  text-align: center;
+  background-color: #3232ff;
+}
+
+
+
+
+
