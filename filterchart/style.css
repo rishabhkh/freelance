@@ -1,0 +1,69 @@
+html,body{
+  background-color: grey;
+}
+
+/*Create a new font family.*/
+@font-face {
+  font-family: 'My_font'; /*Define a name*/
+  src: url('fonts/my_font.ttf'); /*Location Of font file*/
+}
+
+#filter_container{ 
+  font-family: 'My_font';
+  background-color: white;
+  width: 40%;
+  border: 2px solid #a1a1a1;
+  border-radius: 10px;
+}
+
+#filter_heading{  
+  margin-top: 0;  
+  font-size: ;/* Filter heading font size*/
+  text-decoration: underline;
+  -webkit-text-decoration-color: red;
+  -moz-text-decoration-color: red;  
+  text-decoration-color: red;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px none #a1a1a1;
+  border-radius: 10px;
+}
+
+#families_container_outer{
+  height: 50%;   
+}
+
+#families_container_outer a{  
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: red;
+  -moz-text-decoration-color: red;  
+  text-decoration-color: red;
+}
+
+
+/*CSS for the tree structure*/
+ul {
+  list-style-type: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+ul.tree, ul.tree ul { 
+  list-style-type: none; 
+  background: url(images/vline.png) repeat-y;
+  margin: 0;
+  padding: 0;
+}
+
+ul.tree li { margin: 0; 
+  padding: 4 20px; 
+  line-height: 20px;
+  background: url(images/node.png) no-repeat;
+  color: #369;
+  font-weight: bold; 
+}
+
+ul.tree li:last-child { 
+  background: #fff url(images/lastnode.png) no-repeat;
+}
